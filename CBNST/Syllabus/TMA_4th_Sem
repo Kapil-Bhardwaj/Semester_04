@@ -1,0 +1,42 @@
+                                              6. Detailed Syllabus
+UNIT 
+
+                                                    Unit – I  
+                                                    
+     Introduction: Numbers and their accuracy, Computer Arithmetic,
+        Mathematical preliminaries, Errors and their Computation, General error
+          formula, Error in series approximations.
+             Solution of Algebraic and Transcendental Equation:
+                 Bisection Method, Iteration method, Method of false position, NewtonRaphson method, Rate of convergence of Iterative methods.
+                    Solution of system of linear equations: Gauss Elimination method,
+                        Gauss Jordan method and Gauss Seidel method.
+
+                                                   Unit - II
+                                                   
+   Interpolation: Finite Differences, Difference tables, Polynomial
+     Interpolation: Newton’s forward and backward formula, Central difference
+        formulae: Gauss forward and backward formula, Stirling’s, Bessel’s,
+          Everett’s formula. Interpolation with unequal intervals: Lagrange’s
+            interpolation, Newton divided difference formula.
+
+                                                   Unit – III
+                                                   
+   Numerical Differentiation and Integration: Introduction, Numerical
+     differentiation Numerical Integration: Trapezoidal rule, Simpson’s 1/3 and
+       3/8 rule, Weddle’s rule
+ 
+                                                   Unit – IV
+                                                   
+     Numerical Solution of differential Equations: Taylor’s Method, Picard’s
+      Method, Euler’s and modified Euler’s method, Runge-Kutta Method, Milne’s
+       Predictor Corrector Method
+ 
+                                                   Unit – V
+                                                   
+    Statistical Computation: Frequency charts, Curve fitting by method of
+     least squares, fitting of straight lines, polynomials, exponential curves etc, 10
+       Computer Based Numerical
+         and Statistical Technique
+          Data fitting with Cubic splines, Regression Analysis, Linear, Non linear
+           Regression and Multiple regression
+ 
