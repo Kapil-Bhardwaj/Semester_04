@@ -32,6 +32,6 @@ int main()
 	
   	Ep = (fabs(Tv-Av)/Tv)*100;
     printf("\nPercentage  error(fabs) =  %f %%",Ep);
-	
+
 	return 0;
 }
