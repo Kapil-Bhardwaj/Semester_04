@@ -1,3 +1,4 @@
+// Practical No.1
 //WAP to find Error (Absolute(Ea) ,Relative(Er) , Percentage(Ep)) .
 // function used [abs()] for absolute value or Mod for integer value
 //      [fabs()] to calculate absolute value or Mod value for Floating point.
@@ -13,7 +14,7 @@ int main()
 	printf("Enter Absolute  value ");
 	scanf("%f",&Av);
 	
-  
+         //Fromula to find Absolute error
 	Ea = abs(Tv-Av);
 	printf("Absolute  error(abs) =  %d",Ea);
 	
