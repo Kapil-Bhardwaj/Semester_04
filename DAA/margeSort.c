@@ -1,41 +1,31 @@
-#include<stdio.h>
-void margeArray(int arr[],int low,int mid,int high)
- {
+Name: Kapil Kumar Bahrdwaj
+Course: B.tech C.S.E
+Batch: 2020 -2024
+R.No. : 200111366
+Date : 08/04/2022
+  
+  Objective : Implementation of Marge Sort
+  
+ -------------------- Agorithm: ----------------------
+ MargeSort(arr[] low, high) 
+{  
+
+     if(low<high)
+     {
+         int mid=(low + high)/2;
+         //printf("%d",high);
+         
+         MargeSort(arr,0,mid); // left part
+         MargeSort(arr,mid+1,high);  // right part
+         margeArray(arr,low,mid,high);   // marge the parts
+     }
+ 
+        
+    }
+
    
-     int i=low,j=mid+1;
-      int k=low;
-      int b[10];
-     while(i<=mid && j<=high)
-     {
-         if(arr[i]<arr[j])
-         {
-             b[k] = arr[i];
-             i++;
-         }
-         else
-         {
-             b[k] = arr[j];
-              j++;
-         }
-         k++;
-     }
-     while(i<=mid)
-     {
-         b[k]=arr[i];
-         k++;
-         i++;
-     }
-     while(j<=high)
-     {
-         b[k]=arr[j];
-         j++;
-         k++;
-     }
-     for(i=low;i<=high;i++)
-     {
-         arr[i]=b[i]; 
-     }
- }
+
+ -----------------Program: --------------------------------
 
 // function to perform Selection Sort
 void MargeSort(int arr[],int low,int high) 
@@ -53,9 +43,6 @@ void MargeSort(int arr[],int low,int high)
  
         
     }
- 
-  
-
 
 int main()
 {   
@@ -83,4 +70,20 @@ int main()
     }
     return 0;
 }
+
+-----------------Output: --------------------------------
+Marge sort
+Enter the size of Array : 8 
+123 543 432 765 342 76 32 65   
+32 65 76 123 342 432 543 765 
+  
+...Program finished with exit code 0
+Press ENTER to exit console.
+ 
+ ----------------Conplexity: -----------------
+  T(n) = O(nlogn);
+ 
+  
+
+
 
